@@ -2,53 +2,133 @@ body {
     margin: 0;
     padding: 0;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 16px;
+    vertical-align: middle;
     line-height:150%;
     color:  #333;
-    background:  #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(../images/background/seigaiha.png);
     background-repeat: repeat;
     overflow: auto;
+    min-height: 100%;
+
+}
+.navi { 
+    float: left;
+    line-height: 50px;
+    
 
 }
 
 header {
-    background: #333;
-
+    overflow: hidden;
+    background: #ffffff;
+    height: 50px;
+    border-top-color: rgb(161, 161, 161);
+    border-top-style: solid;
+    border-width: .5px;
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
 }
 
 h1 {
-    color: #eee;
-    Padding: 20px 0;
-    margin: 0;
-    margin-bottom: bottom 20px;
+    font-size: 2.5em;
+    padding: auto;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    margin-left: 10%;
+    Display: block;
     text-align: center;
+    background: teal;
+    padding-bottom: 0;
 }
-
+#buttons  {
+    position: relative;
+    line-height: 50px;
+    margin-left: 80%;
+    margin-top: -50px;
+}
+#index {
+    margin: 0 5px;
+}
+#portfolio {
+    margin: 0 5px;
+}    
+#contact {
+    margin: 0 5px;
+}
 h2 {
-    font-size: 24px;
+    font-size: 2.5em;
+    color: teal;
+    Margin: 20px;
 }
 
 .container {
-    width: 1024px;
-    margin: 0 auto;
-
+    width: 960px;
+    margin: 45px auto;
+    min-height: 100%;
+    margin-bottom: -35px
+    
 
 }
-#bio-image, #main-bio, #contactinfo{
-   float: left;
+#bio-image, #main-bio {
+    vertical-align: 0%;
+    position: inherit;
+    float: left;
+    background: #ffffff;
+    width: 960px;
 }
 #main-bio {
-    width: 70%;
+    margin-right: 30px;
+    padding: 30px;
+    border-top-style: solid;
+    border-top-color: teal;
+    Border-bottom-style: solid;
+    Border-bottom-color: teal;
+    border-width: 3px;
+    height: 400px
 }
-
+#contact-info {
+    margin-right: 30px;
+    padding: 30px;
+    border-top-style: solid;
+    border-top-color: teal;
+    Border-bottom-style: solid;
+    Border-bottom-color: teal;
+    border-width: 3px;
+    background: #ffffff;
+}
+#portfolio-card-container {
+    margin-right: 30px;
+    padding: 30px;
+    border-top-style: solid;
+    border-top-color: teal;
+    Border-bottom-style: solid;
+    Border-bottom-color: teal;
+    border-width: 3px;
+    background: #ffffff;
+}
 #bio-image{
     height: 200px;
     width: 200px;
     Margin-right: 20px;
 }
 
-#contactinfo {
-    width: 30%;
+footer {
+    clear: both;
+    Clear: all;
+    Position: fixed;
+    Left: 0;
+    Bottom: 0;
+    color: #ffffff;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    border-top-style: solid;
+    Border-top-color: teal;
+    border-width: 3px;
+    background: rgb(60, 71, 71);
+    margin-top: 100px;
 }
